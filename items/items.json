@@ -1,0 +1,871 @@
+[
+  {
+    "name": "Star Pieces",
+    "type": "progressive",
+    "loop": "false",
+    "img": "images/star7.png",
+    "allow_disabled": "false",
+    "stages": [
+      {
+        "img": "images/star7.png",
+        "img_mods": "@disabled",
+        "codes": "starpiece, star7, 7star, s7"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/1.png",
+        "codes": "starpiece1"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/2.png",
+        "codes": "starpiece2"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/3.png",
+        "codes": "starpiece3"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/4.png",
+        "codes": "starpiece4"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/5.png",
+        "codes": "starpiece5"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/6.png",
+        "codes": "starpiece6"
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/7.png",
+        "codes": "starpiece7"
+      }
+    ]
+  },
+  {
+    "name": "Castle Key 1",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/castlekey1.png",
+        "codes": "key1, castlekey1, castle1, ckey1, 1key, 1ckey"
+      }
+    ]
+  },
+  {
+    "name": "Castle Key 2",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/castlekey2.png",
+        "codes": "key2, castlekey2, castle2, ckey2, 2key, 2ckey"
+      }
+    ]
+  },
+  {
+    "name": "Elder Key",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/elderkey.png",
+        "codes": "ekey, elderkey, keye, elder"
+      }
+    ]
+  },
+  {
+    "name": "Room Key",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/roomkey.png",
+        "codes": "rkey, roomkey, keyr, room"
+      }
+    ]
+  },
+  {
+    "name": "Shed Key",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/shedkey.png",
+        "codes": "skey, shedkey, keys, shed"
+      }
+    ]
+  },
+  {
+    "name": "Temple Key",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/templekey.png",
+        "codes": "tkey, templekey, keyt, temple"
+      }
+    ]
+  },
+  {
+    "name": "Big Boo Flag",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bigbooflag.png",
+        "codes": "bigbooflag, booflag, bbflag, boo, bbf"
+      }
+    ]
+  },
+  {
+    "name": "Dry Bones Flag",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/drybonesflag.png",
+        "codes": "drybonesflag, dryflag, bonesflag, dbflag, drybones, bones, dbf"
+      }
+    ]
+  },
+  {
+    "name": "Greaper Flag",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/greaperflag.png",
+        "codes": "greaperflag, greaper, gflag, reaper, ghostflag"
+      }
+    ]
+  },
+  {
+    "name": "Bambino Bomb",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/bambinobomb.png",
+        "codes": "bambinobomb, bambino, bb"
+      }
+    ]
+  },
+  {
+    "name": "Bright Card",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/brightcard.png",
+    "codes": "brightcard, bcard, bright, cardb, bc"
+  },
+  {
+    "name": "Carbo Cookie",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/carbocookie.png",
+        "codes": "carbocookie, ccookie, carboc, cook, cookie, carb, cc, biscuit"
+      }
+    ]
+  },
+  {
+    "name": "Alto Card",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/altocard.png",
+    "codes": "altocard, acard, carda, alto, card1"
+  },
+  {
+    "name": "Tenor Card",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/tenorcard.png",
+    "codes": "tenorcard, tcard, cardt, tenor, card2"
+  },
+  {
+    "name": "Soprano Card",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/sopranocard.png",
+    "codes": "sopranocard, scard, cards, soprano, card3"
+  },
+  {
+    "name": "Cricket Jam",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/cricketjam.png",
+        "codes": "cricketjam, cjam, cricketj, cj, jam"
+      },
+      {
+        "img": "images/cricketjamx.png",
+        "codes": "cricketjam, cjam, cricketj, cj, jam"
+      }
+    ]
+  },
+  {
+    "name": "Cricket Pie",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/cricketpie.png",
+        "codes": "cricketpie, cpie, cricketp, cp, pie"
+      }
+    ]
+  },
+  {
+    "name": "Fertilizer",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/fertilizer.png",
+        "codes": "fertilizer, fert, fart, poo, poop"
+      }
+    ]
+  },
+  {
+    "name": "Seed",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/seed.png",
+        "codes": "seed, bud"
+      }
+    ]
+  },
+  {
+    "name": "Rare Frog Coin",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/rarefrogcoin.png",
+        "codes": "rarefrogcoin, rarefrog, rarecoin, frogcoin, rare, frog, coin, rfc, fc"
+      }
+    ]
+  },
+  {
+    "name": "Shiny Stone",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/shinystone.png",
+    "codes": "shinystone, shiny, stone, ss, sstone, shinys"
+  },
+  {
+    "name": "Bowser",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bowserportrait.png",
+    "codes": "bowserportrait, bowser, turtle, bestcharacter"
+  },
+  {
+    "name": "Geno",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/genoportrait.png",
+    "codes": "genoportrait, geno, starman, starboy, starsky"
+  },
+  {
+    "name": "Mallow",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/mallowportrait.png",
+    "codes": "mallowportrait, mallow, marshmallow, fluffy, notatadpole, cloud"
+  },
+  {
+    "name": "Mario",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/marioportrait.png",
+    "codes": "marioportrait, mario, plumber, jumpy, redluigi"
+  },
+  {
+    "name": "Peach",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/peachportrait.png",
+    "codes": "peachportrait, peach, princess, toadstool"
+  },
+  {
+    "name": "Hammer Brothers",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/hammerbros.png",
+    "codes": "hammerbros, hammerbrothers, brothers, bros, hbros"
+  },
+  {
+    "name": "Hammer Brothers Checked",
+    "type": "toggle_badged",
+    "base_item": "hammerbros",
+    "img": "images/check.png",
+    "codes": "hammerbrosx, hammerbrosc, hammerbrothersc, brothersc, brosc, hbrosc"
+  },
+  {
+    "name": "Croco 1",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/croco1.png",
+    "codes": "croco1, c1, dino1"
+  },
+  {
+    "name": "Croco 1 Checked",
+    "type": "toggle_badged",
+    "base_item": "croco1",
+    "img": "images/check.png",
+    "codes": "croco1x, croco1c, c1c, dino1c"
+  },
+  {
+    "name": "Mack",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/mack.png",
+    "codes": "mack, swordboy, babyexor, pumpkinhead, pumpkin"
+  },
+  {
+    "name": "Mack Checked",
+    "type": "toggle_badged",
+    "base_item": "mack",
+    "img": "images/check.png",
+    "codes": "mackx, mackc, swordboyc, babyexorc, pumpkinheadc, pumpkinc"
+  },
+  {
+    "name": "Pandorite",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/pandorite.png",
+    "codes": "pandorite, pando, chest1, c1"
+  },
+  {
+    "name": "Pandorite Checked",
+    "type": "toggle_badged",
+    "base_item": "pandorite",
+    "img": "images/check.png",
+    "codes": "pandoritex, pandoritec, pandoc, chest1c, c1c"
+  },
+  {
+    "name": "Belome 1",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/belome1.png",
+    "codes": "belome1, hunger1, starving1, b1"
+  },
+  {
+    "name": "Belome 1 Checked",
+    "type": "toggle_badged",
+    "base_item": "belome1",
+    "img": "images/check.png",
+    "codes": "belome1x, belome1c, hunger1c, starving1c, b1c"
+  },
+  {
+    "name": "Bowyer",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bowyer.png",
+    "codes": "bowyer, bow, davidbowie, greenarrow"
+  },
+  {
+    "name": "Bowyer Checked",
+    "type": "toggle_badged",
+    "base_item": "bowyer",
+    "img": "images/check.png",
+    "codes": "bowyerx, bowyerc, bowc, davidbowiec, greenarrowc"
+  },
+  {
+    "name": "Croco 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/croco2.png",
+    "codes": "croco2, c2, dino2"
+  },
+  {
+    "name": "Croco 2 Checked",
+    "type": "toggle_badged",
+    "base_item": "croco2",
+    "img": "images/check.png",
+    "codes": "croco2x, croco2c, c2c, dino2c"
+  },
+  {
+    "name": "Punchinello",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/punchinello.png",
+    "codes": "punchinello, punchy, bombvoyage, bomber"
+  },
+  {
+    "name": "Punchinello Checked",
+    "type": "toggle_badged",
+    "base_item": "punchinello",
+    "img": "images/check.png",
+    "codes": "punchinellox, punchinelloc, punchyc, bombvoyagec, bomberc"
+  },
+  {
+    "name": "Booster",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/booster.png",
+    "codes": "booster, cakeeater, snifitking, beetlemonger"
+  },
+  {
+    "name": "Booster Checked",
+    "type": "toggle_badged",
+    "base_item": "booster",
+    "img": "images/check.png",
+    "codes": "boosterx, boosterc, cakeeaterc, snifitkingc, beetlemongerc"
+  },
+  {
+    "name": "Clowns",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/grateknifeguy.png",
+    "codes": "grateknifeguy, grateknifeguys, grateguy, knifeguy, guys, gkg, gg, kg, clowns"
+  },
+  {
+    "name": "Grate Guy and Knife Guy Checked",
+    "type": "toggle_badged",
+    "base_item": "grateknifeguy",
+    "img": "images/check.png",
+    "codes": "grateknifeguyx, grateknifeguyc, grateknifeguysc, grateguyc, knifeguyc, guysc, gkgc, ggc, kgc, clownsc"
+  },
+  {
+    "name": "Bundt",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bundt.png",
+    "codes": "bundt, cake, cakeboss, candles, weddingcake"
+  },
+  {
+    "name": "Bundt Checked",
+    "type": "toggle_badged",
+    "base_item": "bundt",
+    "img": "images/check.png",
+    "codes": "bundtx, bundtc, cakec, cakebossc, candlesc, weddingcakec"
+  },
+  {
+    "name": "Star Hill",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/starhill.png",
+    "codes": "starhill, starflower, sh, shill"
+  },
+  {
+    "name": "Star Hill Checked",
+    "type": "toggle_badged",
+    "base_item": "starhill",
+    "img": "images/check.png",
+    "codes": "starhillx, starhillc, starflowerc, shc, shillc"
+  },
+  {
+    "name": "King Calamari",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/kingcalamari.png",
+    "codes": "kingcalamari, king, calamari, squid, inky, blooper, kc"
+  },
+  {
+    "name": "King Calamari Checked",
+    "type": "toggle_badged",
+    "base_item": "kingcalamari",
+    "img": "images/check.png",
+    "codes": "kingcalamarix, kingcalamaric, kingc, calamaric, squidc, inkyc, blooperc, kcc"
+  },
+  {
+    "name": "Hidon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/hidon.png",
+    "codes": "hidon, hidden, chest2"
+  },
+  {
+    "name": "Hidon Checked",
+    "type": "toggle_badged",
+    "base_item": "hidon",
+    "img": "images/check.png",
+    "codes": "hidonx, hidonc, hiddenc, chest2c"
+  },
+  {
+    "name": "Johnathan Jones",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/johnny.png",
+    "codes": "johnny, johnathanjones, jj, jjones, jonathanj, johnathan, shark, sharky"
+  },
+  {
+    "name": "Johnathan Jones Checked",
+    "type": "toggle_badged",
+    "base_item": "johnny",
+    "img": "images/check.png",
+    "codes": "johnnyx, johnnyc, johnathanjonesc, jjc, jjonesc, jonathanjc, johnathanc, sharkc, sharkyc"
+  },
+  {
+    "name": "Yaridovich",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/yaridovich.png",
+    "codes": "yaridovich, yard, yarid, spearhead, spear"
+  },
+  {
+    "name": "Yaridovich Checked",
+    "type": "toggle_badged",
+    "base_item": "yaridovich",
+    "img": "images/check.png",
+    "codes": "yaridovichx, yardovichc, yardc, yaridc, spearheadc, spearc"
+  },
+  {
+    "name": "Belome 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/belome2.png",
+    "codes": "belome2, hunger2, starving2, b2"
+  },
+  {
+    "name": "Belome 2 Checked",
+    "type": "toggle_badged",
+    "base_item": "belome2",
+    "img": "images/check.png",
+    "codes": "belome2x, belome2c, hunger2c, starving2c, b2c"
+  },
+  {
+    "name": "Jagger",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/jagger.png",
+    "codes": "jagger, mickjagger, mj, j0, jinx0"
+  },
+  {
+    "name": "Jagger Checked",
+    "type": "toggle_badged",
+    "base_item": "jagger",
+    "img": "images/check.png",
+    "codes": "jaggerx, jaggerc, mickjaggerc, mjc, j0c, jinx0c"
+  },
+  {
+    "name": "Jinx 1",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/jinx1.png",
+    "codes": "jinx1, j1, tiny1, greenbelt"
+  },
+  {
+    "name": "Jinx 1 Checked",
+    "type": "toggle_badged",
+    "base_item": "jinx1",
+    "img": "images/check.png",
+    "codes": "jinx1x, jinx1c, j1c, tiny1c, greenbeltc"
+  },
+  {
+    "name": "Jinx 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/jinx2.png",
+    "codes": "jinx2, j2, tiny2, bluebelt"
+  },
+  {
+    "name": "Jinx 2 Checked",
+    "type": "toggle_badged",
+    "base_item": "jinx2",
+    "img": "images/check.png",
+    "codes": "jinx2x, jinx2c, j2c, tiny2c, bluebeltc"
+  },
+  {
+    "name": "Jinx 3",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/jinx3.png",
+    "codes": "jinx3, j3, tiny3, redbelt"
+  },
+  {
+    "name": "Jinx 3 Checked",
+    "type": "toggle_badged",
+    "base_item": "jinx3",
+    "img": "images/check.png",
+    "codes": "jinx3x, jinx3c, j3c, tiny3c, redbeltc"
+  },
+  {
+    "name": "Culex",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/culex.png",
+    "codes": "culex, ff4, bestmusic, crystal, crystals"
+  },
+  {
+    "name": "Culex Checked",
+    "type": "toggle_badged",
+    "base_item": "culex",
+    "img": "images/check.png",
+    "codes": "culexx, culexc, ff4c, bestmusicc, crystalc, crystalsc"
+  },
+  {
+    "name": "Box Boy",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boxboy.png",
+    "codes": "boxboy, bxb, chest3, c3"
+  },
+  {
+    "name": "Box Boy Checked",
+    "type": "toggle_badged",
+    "base_item": "boxboy",
+    "img": "images/check.png",
+    "codes": "boxboyx, boxboyc, bxbc, chest3c, c3c"
+  },
+  {
+    "name": "Megasmilax",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/megasmilax.png",
+    "codes": "megasmilax, smilax, weed, grass, piranha"
+  },
+  {
+    "name": "Megasmilax Checked",
+    "type": "toggle_badged",
+    "base_item": "megasmilax",
+    "img": "images/check.png",
+    "codes": "megasmilaxx, megasmilaxc, smilaxc, weedc, grassc, piranhac"
+  },
+  {
+    "name": "Dodo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/dodo.png",
+    "codes": "dodo, dd, featherhead, beaky"
+  },
+  {
+    "name": "Dodo Checked",
+    "type": "toggle_badged",
+    "base_item": "dodo",
+    "img": "images/check.png",
+    "codes": "dodox, dodoc, ddc, featherheadc, beakyc"
+  },
+  {
+    "name": "Birdo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/birdo.png",
+    "codes": "birdo, bird, trashmen, eggs"
+  },
+  {
+    "name": "Birdo Checked",
+    "type": "toggle_badged",
+    "base_item": "birdo",
+    "img": "images/check.png",
+    "codes": "birdox, birdoc, birdc, trashmenc, eggsc"
+  },
+  {
+    "name": "Valentina",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/valentina.png",
+    "codes": "valentina, vd, parrothead, wiggles"
+  },
+  {
+    "name": "Valentina Checked",
+    "type": "toggle_badged",
+    "base_item": "valentina",
+    "img": "images/check.png",
+    "codes": "valentinax, valentinac, vdc, parrotheadc, wigglesc"
+  },
+  {
+    "name": "Czar Dragon and Zombone",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/czarzombone.png",
+    "codes": "czarzombone, czar, czardragon, dragon, zombone, zombie, cz"
+  },
+  {
+    "name": "Czar Dragon and Zombone Checked",
+    "type": "toggle_badged",
+    "base_item": "czarzombone",
+    "img": "images/check.png",
+    "codes": "czarzombonex, czarzombonec, czarc, czardragonc, dragonc, zombonec, zombiec, czc"
+  },
+  {
+    "name": "Axem Rangers",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/axemrangers.png",
+    "codes": "axemrangers, axem, rangers, a5, blade, breaker"
+  },
+  {
+    "name": "Axem Rangers Checked",
+    "type": "toggle_badged",
+    "base_item": "axemrangers",
+    "img": "images/check.png",
+    "codes": "axemrangersx, axemrangersc, axemc, rangersc, a5c, bladec, breakerc"
+  },
+  {
+    "name": "Magikoopa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/magikoopa.png",
+    "codes": "magikoopa, mk, kamek, babystealer"
+  },
+  {
+    "name": "Magikoopa Checked",
+    "type": "toggle_badged",
+    "base_item": "magikoopa",
+    "img": "images/check.png",
+    "codes": "magikoopax, magikoopac, mkc, kamekc, babystealerc"
+  },
+  {
+    "name": "Boomer",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/boomer.png",
+    "codes": "boomer, boom, samurai, sam"
+  },
+  {
+    "name": "Boomer Checked",
+    "type": "toggle_badged",
+    "base_item": "boomer",
+    "img": "images/check.png",
+    "codes": "boomerx, boomerc, boomc, samuraic, samc"
+  },
+  {
+    "name": "Exor",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/exor.png",
+    "codes": "exor, ex, sword, swordmouth"
+  },
+  {
+    "name": "Exor Checked",
+    "type": "toggle_badged",
+    "base_item": "exor",
+    "img": "images/check.png",
+    "codes": "exorx, exorc, exc, swordc, swordmouthc"
+  },
+  {
+    "name": "Countdown",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/countdown.png",
+    "codes": "countdown, cd, clock, dinger"
+  },
+  {
+    "name": "Countdown Checked",
+    "type": "toggle_badged",
+    "base_item": "countdown",
+    "img": "images/check.png",
+    "codes": "countdownx, countdownc, cdc, clockc, dingerc"
+  },
+  {
+    "name": "Cloaker and Domino",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/cloakerdomino.png",
+    "codes": "cloakerdomino, cloaker, domino, earthlink, madadder, snake, snek"
+  },
+  {
+    "name": "Cloaker and Domino Checked",
+    "type": "toggle_badged",
+    "base_item": "cloakerdomino",
+    "img": "images/check.png",
+    "codes": "cloakerdominox, cloakerdominoc, cloakerc, dominoc, earthlinkc, madadderc, snakec, snekc"
+  },
+  {
+    "name": "Clerk",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/clerk.png",
+    "codes": "clerk, factoryboss1, boss1, fb1"
+  },
+  {
+    "name": "Clerk Checked",
+    "type": "toggle_badged",
+    "base_item": "clerk",
+    "img": "images/check.png",
+    "codes": "clerkx, clerkc, factoryboss1c, boss1c, fb1c"
+  },
+  {
+    "name": "Manager",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/manager.png",
+    "codes": "manager, factoryboss2, boss2, fb2"
+  },
+  {
+    "name": "Manager Checked",
+    "type": "toggle_badged",
+    "base_item": "manager",
+    "img": "images/check.png",
+    "codes": "managerx, managerc, factoryboss2c, boss2c, fb2c"
+  },
+  {
+    "name": "Director",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/director.png",
+    "codes": "director, factoryboss3, boss3, fb3"
+  },
+  {
+    "name": "Director Checked",
+    "type": "toggle_badged",
+    "base_item": "director",
+    "img": "images/check.png",
+    "codes": "directorx, directorc, factoryboss3c, boss3c, fb3c"
+  },
+  {
+    "name": "Gunyolk",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gunyolk.png",
+    "codes": "gunyolk, gy, guny, gyolk, smelty"
+  },
+  {
+    "name": "Gunyolk Checked",
+    "type": "toggle_badged",
+    "base_item": "gunyolk",
+    "img": "images/check.png",
+    "codes": "gunyolkx, gunyolkc, gyc, gunyc, gyolkc, smeltyc"
+  },
+  {
+    "name": "Smithy",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/smithy.png",
+    "codes": "smithy, smitty, blacksmith, bs, finalboss, gameover"
+  },
+  {
+    "name": "Smithy Checked",
+    "type": "toggle_badged",
+    "base_item": "smithy",
+    "img": "images/check.png",
+    "codes": "smithyx, smithyc, smittyc, blacksmithc, bsc, finalbossc, gameoverc"
+  },
+  {
+    "name": "Star Pieces Required",
+    "codes": "requiredstarpieces",
+    "type": "progressive",
+    "allow_disabled":false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/6.png",
+        "codes": "6stars",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/star7.png",
+        "img_mods": "overlay|images/Overlays/7.png",
+        "codes": "7stars",
+        "inherit_codes":false
+	    }
+    ]
+  },
+  {
+    "name": "Star Pieces in Bowser's Keep",
+    "codes": "bowserstars",
+    "type": "progressive",
+    "allow_disabled":false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/on.png",
+        "codes": "bowserstarson",
+        "inherit_codes":false
+      },
+      {
+        "img": "images/off.png",
+        "codes": "bowserstarsoff",
+        "inherit_codes":false
+      }
+    ]
+  }
+]

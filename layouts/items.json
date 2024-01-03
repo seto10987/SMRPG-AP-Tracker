@@ -1,0 +1,163 @@
+﻿{
+  "map_enabled": true,
+  "auto_pin_capturing_locations": false,
+  "auto_unpin_on_clear": false,
+  "layout_swap_left_right": false,
+  "allow_resize": true,
+  "disabled_image_filter": "dim",
+  "layouts": {
+    "tracker_default": {
+      "type": "container",
+      "background": "#000000",    
+      "content": {
+        "type": "dock",
+        "dropshadow": false,
+        "content": [
+          {
+            "type": "dock",
+            "dock": "right",
+            "content": [
+              {
+              "type": "group",
+              "header": "Bosses",
+              "dock": "top",
+              "margin": "2,2,2,2",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "item_margin": "0,0",
+                    "v_alignment": "top",
+                    "item_size": 50,
+                    "rows": [
+                                [ "hammerbrosx", "croco1x", "mackx" ],
+				                        [ "pandoritex", "belome1x", "bowyerx" ],
+                                [ "croco2x", "punchinellox", "boosterx" ],
+                                [ "grateknifeguyx", "bundtx", "kingcalamarix" ],
+				                        [ "hidonx", "johnnyx", "yaridovichx" ],
+                                [ "belome2x", "jaggerx", "jinx3x" ],
+				                        [ "culexx", "boxboyx", "megasmilaxx" ],
+                                [ "dodox", "birdox", "valentinax" ],
+                                [ "czarzombonex", "axemrangersx", "magikoopax" ],
+				                        [ "boomerx", "exorx", "countdownx" ],
+                                [ "cloakerdominox", "clerkx", "managerx" ],
+                                [ "directorx", "gunyolkx", "smithyx" ]
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "dock",
+            "dock": "left",
+            "content": [
+              {
+              "type": "group",
+              "header": "Key Items",
+              "dock": "top",
+              "margin": "2,0,2,2",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "item_margin": "0,0",
+                    "v_alignment": "top",
+                    "item_size": 50,
+                    "rows": [
+                                [ "elderkey", "roomkey", "bigbooflag" ],
+				                        [ "shedkey", "templekey", "drybonesflag" ],
+                                [ "castlekey1", "castlekey2", "greaperflag" ],
+                                [ "cricketpie", "cricketjam", "rarefrogcoin" ],
+                                [ "altocard", "tenorcard", "sopranocard" ],
+				                        [ "shinystone", "brightcard", "bambinobomb"],
+                                [ "seed", "fertilizer", "star7" ]
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+              "type": "group",
+              "header": "Characters",
+              "dock": "top",
+              "margin": "2,0,2,2",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "item_margin": "0,0",
+                    "v_alignment": "top",
+                    "item_size": 50,
+                    "rows": [
+                                [ "peachportrait", "marioportrait", "bowserportrait" ],
+				                        [ "mallowportrait", "genoportrait" ]
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+        {
+          "type": "tabbed",
+          "tabs": [
+	    {
+              "title": "World Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "worldmap"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "settings_popup":
+  {
+    "type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+      {
+        "type": "group",
+        "header": "Star Pieces Required",
+        "content":
+        [
+          {
+            "type": "item",
+            "margin": "-5,-1,-5,-5",
+            "item": "requiredstarpieces"
+          }
+        ]
+      },
+			{
+        "type": "group",
+        "header": "Star Pieces in Bowser's Keep",
+        "content":
+        [
+          {
+            "type": "item",
+            "margin": "-5,-3,-5,-5",
+            "item": "bowserstars"
+          }
+        ]
+      }
+		]
+  }
+  }
+}

@@ -1,0 +1,1569 @@
+[
+  {
+    "name": "World Map",
+    "color": "#316534",
+    "children": [
+      {
+        "name": "Mario's Pad",
+        "sections": [
+          {
+            "name": "Key Item - Mario's Bed (Dry Bones Flag)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 430,
+            "y": 192
+          }
+        ]
+      },
+      {
+        "name": "Mushroom Way",
+        "sections": [
+          {
+            "name": "Chest - Mushroom Way 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Mushroom Way 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Toad Rescue 1",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Mushroom Way 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Toad Rescue 2",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Mushroom Way 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Hammer Bros Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Hammer Bros Spot (100 HP)",
+            "hosted_item": "hammerbros"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 480,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Mushroom Kingdom",
+        "sections": [
+          {
+            "name": "Event - Mushroom Kingdom Store",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Event - Peach Surprise",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Mushroom Kingdom Vault 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Mushroom Kingdom Vault 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Mushroom Kingdom Vault 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Invasion Family",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["croco1"]
+          },
+          {
+            "name": "Event - Invasion Guard",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["croco1"]
+          },
+          {
+            "name": "Event - Invasion Guest Room",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["croco1"]
+          },
+          {
+            "name": "Event - Wallet Guy 1",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["croco1, wallet"]
+          },
+          {
+            "name": "Event - Wallet Guy 2",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["croco1, wallet"]
+          },
+          {
+            "name": "Boss - Mack Spot (600 HP)",
+            "access_rules": ["croco1"],
+            "hosted_item": "mack"
+          },
+          {
+            "name": "Key Item - Rare Frog Coin Reward (Cricket Pie)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png",
+            "access_rules": ["rarefrogcoin"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 524,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "name": "Bandit's Way",
+        "sections": [
+          
+          {
+            "name": "Chest - Bandit's Way Flower Jump",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bandit's Way Guard Dog",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bandit's Way Invincibility Star",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bandit's Way Dog Jump",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bandit's Way Croco Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Croco 1 Spot (320 HP)",
+            "hosted_item": "croco1"
+          },
+          {
+            "name": "Key Item - Croco 1 (Rare Frog Coin)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Event - Croco 1 Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 462,
+            "y": 238
+          }
+        ]
+      },
+      {
+        "name": "Kero Sewers",
+        "sections": [
+          {
+            "name": "Event - Pandorite Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Pandorite Spot (300 HP)",
+            "hosted_item": "pandorite"
+          },
+          {
+            "name": "Chest - Kero Sewers Pandorite Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Kero Sewers Invincibility Star",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Belome 1 Spot (500 HP)",
+            "hosted_item": "belome1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 550,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Midas River",
+        "sections": [
+          {
+            "name": "Event - Midas River First Time",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 526,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Tadpole Pond",
+        "sections": [
+          {
+            "name": "Key Item - Melody Bay Song 1 (Alto Card)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Key Item - Melody Bay Song 2 (Tenor Card)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png",
+            "access_rules": ["punchinello"]
+          },
+          {
+            "name": "Key Item - Melody Bay Song 3 (Soprano Card)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png",
+            "access_rules": ["belome2"]
+          },
+          {
+            "name": "Event - Cricket Pie Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["cricketpie"]
+          },
+          {
+            "name": "Event - Cricket Jam Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["cricketjam"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 492,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Rose Way",
+        "sections": [
+          {
+            "name": "Chest - Rose Way Platform Jump",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 524,
+            "y": 388
+          }
+        ]
+      },
+      {
+        "name": "Rose Town",
+        "sections": [
+          {
+            "name": "Key Item - Rose Town Sign (Greaper Flag)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Chest - Rose Town Store 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Rose Town Store 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Rose Town Toad",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Event - Gaz",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["bowyer"]
+          },
+          {
+            "name": "Chest - Lazy Shell 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["bowyer, seed, fertilizer"]
+          },
+          {
+            "name": "Chest - Lazy Shell 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["bowyer, seed, fertilizer"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 472,
+            "y": 406
+          }
+        ]
+      },
+      {
+        "name": "Forest Maze",
+        "sections": [
+          {
+            "name": "Chest - Forest Maze 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Forest Maze Red Essence",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Forest Maze Underground 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Forest Maze Underground 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Forest Maze Underground 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Forest Maze 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Bowyer Spot (720 HP)",
+            "hosted_item": "bowyer"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 432,
+            "y": 354
+          }
+        ]
+      },
+      {
+        "name": "Pipe Vault",
+        "sections": [
+          {
+            "name": "Chest - Pipe Vault Slide 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Pipe Vault Slide 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Pipe Vault Slide 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Goomba Thumping 1",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Event - Goomba Thumping 2",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Pipe Vault Nippers 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Pipe Vault Nippers 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 378,
+            "y": 386
+          }
+        ]
+      },
+      {
+        "name": "Yo'Ster Isle",
+        "sections": [
+          {
+            "name": "Chest - Yo'ster Isle",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Key Item - Yo'ster Isle Goal (Big Boo Flag)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          }
+
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 352,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Moleville",
+        "sections": [
+          {
+            "name": "Event - Croco Flunkie 1",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Event - Croco Flunkie 2",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Event - Croco Flunkie 3",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Key Item - Croco 2 (Bambino Bomb)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Boss - Croco 2 Spot (750 HP)",
+            "hosted_item": "croco2"
+          },
+          {
+            "name": "Chest - Moleville Mines Invincibility Star",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["bambinobomb"]
+          },
+          {
+            "name": "Chest - Moleville Mines Coins",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["bambinobomb"]
+          },
+          {
+            "name": "Chest - Moleville Mines Punchinello 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["bambinobomb"]
+          },
+          {
+            "name": "Chest - Moleville Mines Punchinello 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["bambinobomb"]
+          },
+          {
+            "name": "Event - Treasure Seller 1",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["punchinello"]
+          },
+          {
+            "name": "Event - Treasure Seller 2",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["yaridovich"]
+          },
+          {
+            "name": "Event - Treasure Seller 3",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["axemrangers"]
+          },
+          {
+            "name": "Boss - Punchinello Spot (1200 HP)",
+            "access_rules": ["bambinobomb"],
+            "hosted_item": "punchinello"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 404,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Booster Pass",
+        "sections": [
+          {
+            "name": "Chest - Booster Pass 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Pass 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Pass Secret 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Pass Secret 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Pass Secret 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 358,
+            "y": 464
+          }
+        ]
+      },
+      {
+        "name": "Booster Tower",
+        "sections": [
+          {
+            "name": "Chest - Booster Tower Spookum",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Booster Tower Railway",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Booster Tower Masher",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Key Item - Booster Tower Genealogy Hall (Elder Key)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Chest - Booster Tower Thwomp",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Tower Parachute",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Key Item - Booster Tower Checkerboard Room (Room Key)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Chest - Booster Tower Top 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Tower Top 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Booster Tower Top 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Booster Tower Curtain Game",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Booster Spot (1400 HP)",
+            "hosted_item": "booster"
+          },
+          {
+            "name": "Boss - Knife Guy and Crate Guy Spot (1600 HP)",
+            "hosted_item": "grateknifeguy"
+          },
+          {
+            "name": "Key Item - Knife Guy (Bright Card)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png",
+            "access_rules": ["grateknifeguy"]
+          },
+          {
+            "name": "Event - Booster Tower Chomp",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["elderkey"]
+          },
+          {
+            "name": "Chest - Booster Tower Zoom Shoes",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["roomkey"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 320,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Marrymore",
+        "sections": [
+          {
+            "name": "Chest - Marrymore Inn Second Floor",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Bundt Spot (1500 HP)",
+            "hosted_item": "bundt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 266,
+            "y": 422
+          }
+        ]
+      },
+      {
+        "name": "Star Hill",
+        "sections": [
+          {
+            "name": "Event - Star Hill Spot",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 220,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Seaside Town",
+        "sections": [
+          {
+            "name": "Boss - Yaridovich Spot (1500 HP)",
+            "hosted_item": "yaridovich"
+          },
+          {
+            "name": "Key Item - Seaside Town Key (Shed Key)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Event - Seaside Town Rescue",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["shedkey"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 136,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Sea",
+        "sections": [
+          {
+            "name": "Chest - Sea Invincibility Star",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sea Save Room 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sea Save Room 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sea Save Room 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sea Save Room 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 94,
+            "y": 444
+          }
+        ]
+      },
+      {
+        "name": "Sunken Ship",
+        "sections": [
+          {
+            "name": "Chest - Sunken Ship Rat Stairs",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Sunken Ship 3D Maze",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Sunken Ship Shop",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Sunken Ship Cannonball Puzzle",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - King Calamari Spot (2640 HP)",
+            "hosted_item": "kingcalamari"
+          },
+          {
+            "name": "Chest - Sunken Ship Coins 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sunken Ship Coins 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sunken Ship Clone Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sunken Ship Frog Coin Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sunken Ship Hidon Mushroom",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Hidon Spot (600 HP)",
+            "hosted_item": "hidon"
+          },
+          {
+            "name": "Chest - Sunken Ship Safety Ring",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Sunken Ship Bandana Reds",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Sunken Ship Hidon Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Johnny Spot (1820 HP)",
+            "hosted_item": "johnny"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 64,
+            "y": 514
+          }
+        ]
+      },
+      {
+        "name": "Land's End",
+        "sections": [
+          {
+            "name": "Chest - Land's End Red Essence",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Chow Pit 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Chow Pit 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Bee Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Secret 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Secret 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Shy Away",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Invincibility Star 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Land's End Invincibility Star 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          // {
+          //   "name": "Chest - Land's End Invincibility Star 3"
+          // },
+          {
+            "name": "Chest - Belome Temple Fortune Teller",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Belome Temple After Fortune 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Belome Temple After Fortune 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Belome Temple After Fortune 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Belome Temple After Fortune 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Key Item - Kero Sewers Key Chest (Cricket Jam)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Boss - Belome 2 Spot (1200 HP)",
+            "hosted_item": "belome2"
+          },
+          {
+            "name": "Event - Troopa Climb",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["belome2"]
+          },
+          {
+            "name": "Event - Belome Temple Treasure 1",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["templekey"]
+          },
+          {
+            "name": "Event - Belome Temple Treasure 2",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["templekey"]
+          },
+          {
+            "name": "Event - Belome Temple Treasure 3",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["templekey"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 118,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Monstro Town",
+        "sections": [
+          {
+            "name": "Chest - Monstro Town Entrance",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Key Item - Monstro Town Key (Temple Key)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Event - Super Jumps 30",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Event - Super Jumps 100",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Jagger Spot (600 HP)",
+            "hosted_item": "jagger"
+          },
+          {
+            "name": "Event - Jinx Dojo Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Jinx 3 Spot (1000 HP)",
+            "hosted_item": "jinx3"
+          },
+          {
+            "name": "Event - Three Musty Fears",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["bigbooflag, drybonesflag, greaperflag"]
+          },
+          {
+            "name": "Event - Culex Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["culex"]
+          },
+          {
+            "name": "Boss - Culex Spot (12396 HP)",
+            "access_rules": ["shinystone"],
+            "hosted_item": "culex"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 82,
+            "y": 334
+          }
+        ]
+      },
+      {
+        "name": "Bean Valley",
+        "sections": [
+          {
+            "name": "Chest - Bean Valley 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley Box Boy Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Box Boy Spot (900 HP)",
+            "hosted_item": "boxboy"
+          },
+          {
+            "name": "Chest - Bean Valley Piranha Plants",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley Slot Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Key Item - Smilax (Seed)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Boss - Mega Smilax Spot (2600 HP)",
+            "hosted_item": "megasmilax"
+          },
+          {
+            "name": "Chest - Bean Valley Beanstalk",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley Cloud 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley Cloud 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley Fall 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bean Valley Fall 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 122,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Nimbus Land",
+        "sections": [
+          {
+            "name": "Chest - Nimbus Land Shop",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Nimbus Land Inn",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Boss - Dodo Spot (800 HP)",
+            "hosted_item": "dodo"
+          },
+          {
+            "name": "Event - Dodo Reward",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Nimbus Castle Before Birdo 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Nimbus Castle Out Of Bounds 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Nimbus Castle Out Of Bounds 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Event - Nimbus Land Prisoners",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Key Item - Nimbus Land Guard (Castle Key 1)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png"
+          },
+          {
+            "name": "Chest - Nimbus Castle Before Birdo 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Nimbus Castle Single Gold Bird",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Birdo Spot (777 HP)",
+            "access_rules": ["castlekey1"],
+            "hosted_item": "birdo"
+          },
+          {
+            "name": "Key Item - Birdo (Castle Key 2)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png",
+            "access_rules": ["castlekey1"]
+          },
+          {
+            "name": "Chest - Nimbus Castle Invincibility Star",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["castlekey1, castlekey2"]
+          },
+          {
+            "name": "Chest - Nimbus Castle Star After Valentina",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png",
+            "access_rules": ["castlekey1, castlekey2"]
+          },
+          {
+            "name": "Event - Nimbus Land Signal Ring",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["castlekey1, castlekey2"]
+          },
+          {
+            "name": "Event - Nimbus Land Cellar",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png",
+            "access_rules": ["castlekey1, castlekey2"]
+          },
+          {
+            "name": "Boss - Valentina Spot (3000 HP)",
+            "access_rules": ["castlekey1, castlekey2"],
+            "hosted_item": "valentina"
+          },
+          {
+            "name": "Key Item - Shy Away (Fertilizer)",
+            "chest_unopened_img": "images/keyitem.png",
+            "chest_opened_img": "images/keyitemx.png",
+            "access_rules": ["castlekey1, castlekey2, valentina"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 106,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Barrel Volcano",
+        "sections": [
+          {
+            "name": "Chest - Barrel Volcano Secret 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Secret 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Before Star 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Before Star 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Invincibility Star",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Save Room 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Save Room 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Barrel Volcano Hinopio",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Czar Dragon Spot (3200 HP)",
+            "hosted_item": "czardragon"
+          },
+          {
+            "name": "Boss - Axem Rangers Spot (3799 HP)",
+            "hosted_item": "axemrangers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 194,
+            "y": 206
+          }
+        ]
+      },
+      {
+        "name": "Bowser's Keep",
+        "access_rules":["7stars, starpiece7", "6stars, starpiece6", "bowserstarson"],
+        "sections": [
+          {
+            "name": "Chest - Bowser's Keep Dark Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Croco Shop 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Croco Shop 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Elevator Platforms",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Cannonball Room 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Cannonball Room 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Cannonball Room 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Cannonball Room 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Cannonball Room 5",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Rotating Platforms 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Rotating Platforms 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Rotating Platforms 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Rotating Platforms 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Rotating Platforms 5",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Rotating Platforms 6",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Door Reward 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Door Reward 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Door Reward 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Door Reward 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Door Reward 5",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Invisible Bridge 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Invisible Bridge 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Invisible Bridge 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Invisible Bridge 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Moving Platforms 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Moving Platforms 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Moving Platforms 3",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Moving Platforms 4",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Bowser's Keep Door Reward 6",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Magikoopa Spot (1600 HP)",
+            "hosted_item": "magikoopa"
+          },
+          {
+            "name": "Boss - Boomer Spot (2000 HP)",
+            "hosted_item": "boomer"
+          },
+          {
+            "name": "Boss - Exor Spot (3400 HP)",
+            "hosted_item": "exor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 321,
+            "y": 138
+          }
+        ]
+      },
+      {
+        "name": "Factory",
+        "access_rules": ["7stars, starpiece7", "6stars, starpiece6"],
+        "sections": [
+          {
+            "name": "Event - Factory Toad Gift",
+            "chest_unopened_img": "images/event.png",
+            "chest_opened_img": "images/eventx.png"
+          },
+          {
+            "name": "Chest - Factory Save Room",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Bolt Platforms",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Falling Axems",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Treasure Pit 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Treasure Pit 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Conveyor Platforms 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Conveyor Platforms 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Behind Snakes 1",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Chest - Factory Behind Snakes 2",
+            "chest_unopened_img": "images/chest.png",
+            "chest_opened_img": "images/chestx.png"
+          },
+          {
+            "name": "Boss - Countdown Spot (4800 HP)",
+            "hosted_item": "countdown"
+          },
+          {
+            "name": "Boss - Cloaker and Domino Spot (3600 or 4600 HP)",
+            "hosted_item": "cloakerdomino"
+          },
+          {
+            "name": "Boss - Clerk Spot (900 HP)",
+            "hosted_item": "clerk"
+          },
+          {
+            "name": "Boss - Manager Spot (1340 HP)",
+            "hosted_item": "manager"
+          },
+          {
+            "name": "Boss - Director Spot (1600 HP)",
+            "hosted_item": "director"
+          },
+          {
+            "name": "Boss - Gunyolk Spot (2500 HP)",
+            "hosted_item": "gunyolk"
+          },
+          {
+            "name": "Boss - Smithy Spot (2000 + 8000 HP)",
+            "hosted_item": "smithy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "worldmap",
+            "x": 321,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  }
+]
