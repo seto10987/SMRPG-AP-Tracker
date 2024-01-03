@@ -7,7 +7,7 @@
   "author": "Seto10987",
   "variants": {
     "Key Item Shuffle and Star Hunt": {
-      "display_name": "Key Item, Boss, and Chest Tracker",
+      "display_name": "Super Mario RPG AP Autotracker",
 	  "flags": [ "ap" ]
     }
   }
