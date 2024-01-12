@@ -1,0 +1,101 @@
+﻿{
+	"layouts": {
+		"tracker_default": {
+			"type": "container",
+			"background": "#212121",
+			"content": {
+				"type": "dock",
+				"dropshadow": true,
+				"content": [
+					{
+						"type": "dock",
+						"dock": "left",
+						"content": [
+							{
+								"type": "dock",
+								"dock": "top",
+								"v_alignment": "stretch",
+								"content": [
+									{
+										"type": "group",
+										"header": "Key Items",
+										"dock": "top",
+										"content": {
+											"type": "layout",
+											"key": "item_grid"
+										}
+									},
+                					{
+										"type": "group",
+										"header": "Characters",
+										"dock": "right",
+										"content": {
+											"type": "layout",
+											"key": "char_grid"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "tabbed",
+						"tabs": [
+					  		{
+							"title": "World Map",
+							"content": {
+							  "type": "map",
+							  "maps": [
+								"worldmap"
+									]
+							  	}
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Bosses",
+						"dock": "right",
+						"content": {
+							"type": "layout",
+							"key": "boss_grid"
+						}
+					}
+				]
+			}
+		},
+		"settings_popup":
+	  {
+		"type": "array",
+			"orientation": "vertical",
+			"margin": "0,0",
+			"content":
+			[
+		  {
+			"type": "group",
+			"header": "Star Pieces Required",
+			"content":
+			[
+			  {
+				"type": "item",
+				"margin": "-5,-1,-5,-5",
+				"item": "requiredstarpieces"
+			  }
+			]
+		  },
+				{
+			"type": "group",
+			"header": "Star Pieces in Bowser's Keep",
+			"content":
+			[
+			  {
+				"type": "item",
+				"margin": "-5,-3,-5,-5",
+				"item": "bowserstars"
+			  }
+			]
+		  }
+		]
+	  }
+	}
+}

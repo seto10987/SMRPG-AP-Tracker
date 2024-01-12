@@ -1,0 +1,65 @@
+{
+    "item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "50",
+                "item_margin": "1,2",
+                "rows": [
+                    [ "elderkey", "roomkey", "bigbooflag" ],
+                    [ "shedkey", "templekey", "drybonesflag" ],
+                    [ "castlekey1", "castlekey2", "greaperflag" ],
+                    [ "cricketpie", "cricketjam", "rarefrogcoin" ],
+                    [ "altocard", "tenorcard", "sopranocard" ],
+                    [ "shinystone", "brightcard", "bambinobomb"],
+                    [ "seed", "fertilizer", "star7" ]
+                ]
+            }
+        ]
+    },
+    "boss_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "38",
+                "item_margin": "1,2",
+                "rows": [
+                    [ "hammerbrosx", "croco1x", "mackx" ],
+                    [ "pandoritex", "belome1x", "bowyerx" ],
+                    [ "croco2x", "punchinellox", "boosterx" ],
+                    [ "grateknifeguyx", "bundtx", "kingcalamarix" ],
+                    [ "hidonx", "johnnyx", "yaridovichx" ],
+                    [ "belome2x", "jaggerx", "jinx3x" ],
+                    [ "culexx", "boxboyx", "megasmilaxx" ],
+                    [ "dodox", "birdox", "valentinax" ],
+                    [ "czarzombonex", "axemrangersx", "magikoopax" ],
+                    [ "boomerx", "exorx", "countdownx" ],
+                    [ "cloakerdominox", "clerkx", "managerx" ],
+                    [ "directorx", "gunyolkx", "smithyx" ]
+                ]
+            }
+        ]
+    },
+    "char_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": "50",
+                "item_margin": "1,2",
+                "rows": [
+                    [ "peachportrait", "marioportrait", "bowserportrait" ],
+                    [ "mallowportrait", "genoportrait" ]
+                ]
+            }
+        ]
+    }
+}
